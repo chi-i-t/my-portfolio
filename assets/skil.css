@@ -1,0 +1,10 @@
+.skil-main{
+  height: calc(100% - 100px);
+  padding: 50px;
+}
+.skil-text{
+  text-align: center;
+}
+.skil-list{
+  padding-top: 100px;
+}

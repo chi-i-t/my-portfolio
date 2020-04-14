@@ -1,5 +1,5 @@
 <template>
-  <div class="profile-contants">
+  <div class="contents">
     <h1 class="title">PROFILE</h1>
     <div class="profile-main">
       <div class="portrait">
@@ -28,9 +28,9 @@
             <td>@chi_i_TECH</td>
           </tr>
         </table>
-        <div class="message">
+        <div class="profile-text">
           前職にて新しいシステムを導入したことにより、ITによる事務効率化に感動。その感動をIT慣れしていないユーザーにも伝えたい。<br>
-          退職後、2019年12月よりテックキャンプにてプログラミングの勉強を開始。<br>
+          退職後、2019年12月よりTECH::EXPERTにてプログラミングの勉強を開始。<br>
           2020年３月同スクール卒業。現在はPythonを独学で学ぶ。
         </div>
       </div>

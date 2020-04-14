@@ -26,7 +26,11 @@ export default {
   */
   css: [
     '~/assets/reset.css',
-    '~/assets/main.css'
+    '~/assets/main.css',
+    '~/assets/profile.css',
+    '~/assets/portfolio.css',
+    '~/assets/skil.css',
+    '~/assets/contact.css'
   ],
   /*
   ** Plugins to load before mounting the App
