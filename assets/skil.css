@@ -1,10 +1,35 @@
 .skil-main{
   height: calc(100% - 100px);
-  padding: 50px;
 }
 .skil-text{
   text-align: center;
 }
 .skil-list{
-  padding-top: 100px;
+  padding-top: 50px;
+}
+.list{
+  width: 30%;
+  position: relative;
+  list-style-type: none!important;
+  padding: 0.5em 0.5em 0.5em 0.5em;
+  margin-bottom: 5px;
+  line-height: 1.5;
+  background: rgb(221, 200, 240);
+  vertical-align: middle;
+  border-radius: 15px 0px 0px 15px;
+}
+.list:before{ 
+  display:inline-block; 
+  vertical-align: middle;
+  content:'';
+  width:1em;
+  height: 1em;
+  background: #fff;
+  border-radius: 50%;
+  margin-right: 15px;
+}
+.lists{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
 }

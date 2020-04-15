@@ -1,11 +1,11 @@
 <template>
   <div class="contents">
-    <h1 class="title">PROFILE</h1>
+    <h2 class="title">PROFILE</h2>
     <div class="profile-main">
       <div class="portrait">
         <img src="~/assets/portrait.jpg" width="300" height="250">
       </div>
-      <div class="list">
+      <div class="profile-list">
         <table width="100%" height="200">
           <tr>
             <td>Name</td>
@@ -21,11 +21,11 @@
           </tr>
           <tr>
             <td>Github</td>
-            <td>chi-i-t</td>
+            <td><a class="simple-link" href="https://github.com/chi-i-t">chi-i-t</a></td>
           </tr>
           <tr>
             <td>Twitter</td>
-            <td>@chi_i_TECH</td>
+            <td><a class="simple-link" href="https://twitter.com/chi_i_TECH">@chi_i_TECH</a></td>
           </tr>
         </table>
         <div class="profile-text">

@@ -1,0 +1,45 @@
+.card{
+  width: 288px;
+  height: auto;
+}
+
+.card-img{
+  display: block;
+  width: 100%;
+  height: auto;
+  padding-top: 56.25%;
+  background: url(https://i.gyazo.com/df8f7237c2da1f1356fe11f223a35981.jpg) no-repeat center;
+  background-size: cover;
+  box-sizing: border-box;
+}
+
+.card-textbox{
+  width: 100%;
+  height: auto;
+  padding: 20px 18px;
+  background: #ffffff;
+  box-sizing: border-box;
+}
+
+.card-textbox > * + *{
+  margin-top: 10px;
+}
+
+.card-title{
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 125%;
+}
+
+.card-text{
+  font-size: 12px;
+  line-height: 150%;
+}
+
+.card-skin{
+  overflow: hidden;
+  border-radius: 8px;
+  border-left: solid 1px #ddd; 
+  border-right: solid 1px #ddd; 
+  border-bottom: solid 5px #888; 
+}
