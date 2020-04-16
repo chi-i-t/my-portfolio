@@ -1,5 +1,5 @@
 <template>
-  <div class="container">
+  <div class="contents">
     <h2 class="title">CONTACT</h2>
     <div class="contact-main">
       <div class="contact-message">
@@ -9,10 +9,10 @@
         <form name="contact" method="post" data-netlify="true">
           <input type="hidden" name="form-name" value="contact" />
           <p>
-            <label>お名前<input type="text" name="name" /></label>   
+            <label>Name<input type="text" name="name" required="required" /></label>   
           </p>
           <p>
-            <label>メールアドレス<input type="email" name="email" /></label>
+            <label>Email<input type="email" name="email" required="required"/></label>
           </p>
           <p>
             <label>メッセージ<textarea name="message"></textarea></label>

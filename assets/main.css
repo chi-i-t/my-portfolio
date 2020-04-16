@@ -40,9 +40,12 @@ a:hover{
   position: fixed;
   bottom: 0px;
   width: 100%;
+  height: 60px;
+}
+.footer-link{
   height: 50px;
-  text-align: center;
   line-height: 50px;
+  text-align: center;
 }
 .github-icon{
   padding-right: 20px;
@@ -50,6 +53,13 @@ a:hover{
 .twitter-icon{
   padding-left: 20px;
 }
+.copyright{
+  height: 10px;
+  line-height: 10px;
+  font-size: 0.2rem;
+  text-align: center;
+}
+
 .main-container{
   padding: 70px 100px;
   height: calc(100vh - 50px);
