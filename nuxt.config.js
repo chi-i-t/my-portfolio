@@ -67,5 +67,8 @@ export default {
   },
   generate: {
     fallback: true
+  },
+  performance: {
+    hints: false 
   }
 }
