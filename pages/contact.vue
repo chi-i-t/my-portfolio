@@ -15,7 +15,7 @@
             <label>Email<input type="email" name="email" required="required"/></label>
           </p>
           <p>
-            <label>メッセージ<textarea name="message"></textarea></label>
+            <label>Message<textarea name="message" required="required"></textarea></label>
           </p>
           <p>
             <button type="submit">送信</button>
