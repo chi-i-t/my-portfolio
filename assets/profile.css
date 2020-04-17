@@ -9,7 +9,6 @@
   line-height: 100px;
   text-align: center;
   font-size: 1.5rem;
-  /* background: linear-gradient(transparent 50%, rgb(230, 230, 169) 80%) */
 }
 .profile-main{
   height: calc(100% - 100px);
@@ -21,7 +20,7 @@
   width: 50%;
   text-align: center;
 } 
-img{
+.profile-image{
   object-fit: cover;
   border-radius: 10px 100px / 120px;;
   filter: grayscale(60%) opacity(70%);
@@ -31,10 +30,7 @@ img{
   height: 100%;
   width: 50%;
 }
-.simple-link:hover{
-  color: black;
-  font-size: 1.2rem;
-}
+
 .profile-text{
   padding-top: 10%;
   line-height: 2;

@@ -3,7 +3,7 @@
     <h2 class="title">PROFILE</h2>
     <div class="profile-main">
       <div class="portrait">
-        <img src="portrait.jpg" width="300" height="250">
+        <img class="profile-image" src="portrait.jpg" width="300" height="250">
       </div>
       <div class="profile-list">
         <table width="100%" height="200">
@@ -21,11 +21,11 @@
           </tr>
           <tr>
             <td>Github</td>
-            <td><a class="simple-link" href="https://github.com/chi-i-t">chi-i-t</a></td>
+            <td><a href="https://github.com/chi-i-t">chi-i-t</a></td>
           </tr>
           <tr>
             <td>Twitter</td>
-            <td><a class="simple-link" href="https://twitter.com/chi_i_TECH">@chi_i_TECH</a></td>
+            <td><a href="https://twitter.com/chi_i_TECH">@chi_i_TECH</a></td>
           </tr>
         </table>
         <div class="profile-text">

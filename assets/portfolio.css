@@ -1,39 +1,56 @@
-.card{
-  width: 288px;
+.portfolio-main{
   height: auto;
+  padding: 70px 200px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 
-.card-img{
-  display: block;
+.card {
+  width: 40%;
+  background-color: #fff;
+  box-shadow: 0 0 8px rgba(0, 0, 0, .16);
+  text-decoration: none;
+  margin-bottom: 4rem;
+}
+
+.card-header {
+  display: flex;
+  flex-wrap: wrap;
+}
+.card-title {
+  padding: 1rem 1rem 0;
+  font-size: 1.25rem;
+  order: 1;
+}
+.card-thumbnail {
+  margin: 0;
+  order: 0;
+}
+.card-image {
   width: 100%;
-  height: auto;
-  padding-top: 56.25%;
-  background: url(https://i.gyazo.com/df8f7237c2da1f1356fe11f223a35981.jpg) no-repeat center;
-  background-size: cover;
-  box-sizing: border-box;
 }
 
-.card-textbox{
-  width: 100%;
-  height: auto;
-  padding: 20px 18px;
-  background: #ffffff;
-  box-sizing: border-box;
+.card-body {
+  padding: 1rem;
+}
+.card-text {
+  font-size: 0.8rem;
+  line-height: 1.5;
+}
+.card-language{
+  font-size: 0.5rem;
+  margin-top: .5rem;
+  line-height: 1.2;
 }
 
-.card-textbox > * + *{
-  margin-top: 10px;
+.card-footer {
+  padding: 0.5rem 2rem;
+  border-top: 1px solid #ddd;
+  text-align: center;
 }
-
-.card-title{
-  font-size: 20px;
-  font-weight: bold;
-  line-height: 125%;
-}
-
-.card-text{
-  font-size: 12px;
-  line-height: 150%;
+.github-link{
+  padding-top: 0.5rem;
 }
 
 .card-skin{
@@ -43,3 +60,5 @@
   border-right: solid 1px #ddd; 
   border-bottom: solid 5px #888; 
 }
+
+
