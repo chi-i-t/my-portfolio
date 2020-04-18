@@ -3,7 +3,7 @@
     <h2 class="title">PROFILE</h2>
     <div class="profile-main">
       <div class="portrait">
-        <img class="profile-image" src="portrait.jpg" width="300" height="250">
+        <img class="profile-image" src="portrait.jpg">
       </div>
       <div class="profile-list">
         <table width="100%" height="200">

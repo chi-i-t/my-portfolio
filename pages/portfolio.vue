@@ -13,9 +13,7 @@
         <div class="card-body">
           <p class="card-text">
             家計簿＋ウィッシュリストの機能を持ったアプリ。<br>
-            毎日の支出を細かく記録するのは大変。<br>
-            まずは大きなお買い物（目安１万円以上）を記録、管理してお金のことを考えてみませんか？<br>
-            記録するとお金の豆知識が表示されます。
+            毎日の支出を細かく記録するのは大変。まずは大きなお買い物（目安１万円以上）を記録、管理してお金のことを考えてみませんか？記録するとお金の豆知識が表示されます。
           </p>
           <p class="card-language"> 
             haml / Sass / Ruby / Ruby on Rails / jQuery / MySQL / Github / AWS
@@ -100,7 +98,7 @@
             こちらのサイトです。<br>
             <br>
             <br>
-            
+            <br>
           </p>
           <p class="card-language"> 
             HTML / css / Nuxt.js / Netlify 

@@ -1,12 +1,15 @@
-.skil-main{
+.main-contents{
+  width: 100%;
   height: calc(100% - 100px);
+  padding: 3% 10%;
 }
 .skil-text{
+  height: 10%;
   text-align: center;
 }
-.skil-list{
-  padding-top: 50px;
-}
+.skil-list{ 
+  height: 90%;
+} 
 .list{
   width: 30%;
   position: relative;
@@ -32,4 +35,19 @@
   display: flex;
   align-items: center;
   flex-direction: column;
+}
+
+
+@media(max-width:959px){
+  .list{
+    width: 50%;
+  } 
+}
+@media(max-width:559px){
+  .list{
+    width: 80%;
+  } 
+  .main-contents{
+    height: calc(100% - 50px);
+  }
 }

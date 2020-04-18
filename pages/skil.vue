@@ -1,7 +1,7 @@
 <template>
   <div class="contents">
     <h2 class="title">SKIL</h2>
-    <div class="skil-main">
+    <div class="main-contents">
       <div class="skil-text">
         プログラミングスクールと個人アプリケーション開発にて経験した開発環境
       </div>

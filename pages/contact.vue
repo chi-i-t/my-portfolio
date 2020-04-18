@@ -1,7 +1,7 @@
 <template>
   <div class="contents">
     <h2 class="title">CONTACT</h2>
-    <div class="contact-main">
+    <div class="main-contents">
       <div class="contact-message">
         ご連絡は以下のフォームからお願い致します。
       </div>

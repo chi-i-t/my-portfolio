@@ -1,6 +1,6 @@
 .portfolio-main{
   height: auto;
-  padding: 70px 200px;
+  padding: 5% 20%;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -13,7 +13,6 @@
   text-decoration: none;
   margin-bottom: 4rem;
 }
-
 .card-header {
   display: flex;
   flex-wrap: wrap;
@@ -61,4 +60,9 @@
   border-bottom: solid 5px #888; 
 }
 
+@media(max-width:959px){
+  .card{
+    width: 100%;
+  } 
+}
 

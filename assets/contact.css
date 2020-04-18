@@ -1,6 +1,3 @@
-.contact-main{
-  height: calc(100% - 100px);
-}
 .contact-message{
   height: 10%;
   text-align: center;
@@ -10,6 +7,7 @@
 }
 input, textarea {
   float: left;
+  height: 30%;
   width: 100%;
   max-width: 100%;
   border: none;
@@ -18,6 +16,7 @@ input, textarea {
   border-radius: 0.3rem;
   background: darken(#f9f9f9, 10%);
   color: darken(#f9f9f9, 50%);
+  font-size: 1rem;
 }
 textarea {
   height: 10rem;
@@ -25,8 +24,8 @@ textarea {
 
 button{
   background: rgb(229, 229, 153);
-  height: 40px;
-  width: 15%;
+  height: 2.5rem;
+  width: 5.5rem;
   float: right;
   margin: 1rem;
   cursor: pointer;
@@ -41,4 +40,23 @@ button:hover{
   height: 80%;
   width: 50%;
   margin: auto;
+}
+
+@media(max-width:959px){
+  .contact-form{
+    width: 80%;
+  }
+  button{
+    width: 40%;
+  }
+}
+
+
+@media(max-width:559px){
+  .contact-form{
+    width: 90%;
+  } 
+  button{
+    width: 90%;
+  }
 }
