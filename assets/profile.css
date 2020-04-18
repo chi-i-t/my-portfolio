@@ -23,7 +23,6 @@
 img.profile-image{
   display: block;
   width: 300px;
-  min-width: 300px;
   height: 200px;
   max-height: 300px;
   object-fit: cover;
@@ -55,7 +54,7 @@ img.profile-image{
     text-align: center;
   }
   .profile-list{
-    width: 50%;
+    width: 70%;
     height: 70%;
     margin: auto;
   }
@@ -69,4 +68,16 @@ img.profile-image{
  .profile-main{
   height: calc(100% - 50px);
  }
+ .profile-list{
+  width: 90%;
+  font-size: 0.3rem;
+ }
+ img.profile-image{
+  width: 60%;
+  height: 90%;
+ }
+ .profile-text {
+  padding-top: 3%;
+  line-height: 1.5;
+}
 }
