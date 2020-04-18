@@ -96,8 +96,8 @@
         <div class="card-body">
           <p class="card-text">
             こちらのサイトです。<br>
-            <br>
-            <br>
+            シンプルなSPA。<br>
+            レスポンシブデザイン対応。<br>
             <br>
           </p>
           <p class="card-language"> 

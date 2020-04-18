@@ -18,7 +18,7 @@
             <label>Message<textarea name="message" required="required"></textarea></label>
           </p>
           <p>
-            <button type="submit">送信</button>
+            <button type="submit">送 信</button>
           </p>
         </form>
       </div>   

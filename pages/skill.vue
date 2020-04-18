@@ -1,11 +1,11 @@
 <template>
   <div class="contents">
-    <h2 class="title">SKIL</h2>
+    <h2 class="title">SKILL</h2>
     <div class="main-contents">
-      <div class="skil-text">
+      <div class="skill-text">
         プログラミングスクールと個人アプリケーション開発にて経験した開発環境
       </div>
-      <div class="skil-list">
+      <div class="skill-list">
         <ul class="lists">
           <li class="list">Haml</li>
           <li class="list">SCSS</li>

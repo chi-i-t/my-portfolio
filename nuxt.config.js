@@ -29,7 +29,7 @@ export default {
     '~/assets/main.css',
     '~/assets/profile.css',
     '~/assets/portfolio.css',
-    '~/assets/skil.css',
+    '~/assets/skill.css',
     '~/assets/contact.css'
   ],
   /*
