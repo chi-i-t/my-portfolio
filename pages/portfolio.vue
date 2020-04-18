@@ -1,6 +1,6 @@
 <template>
   <div class="contents">
-    <h2 class="title">PROFILE</h2>
+    <h2 class="title">PORTFOLIO</h2>
 
     <div class="portfolio-main">
       <article class="card card-skin">
