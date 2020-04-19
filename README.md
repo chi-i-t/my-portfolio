@@ -4,7 +4,7 @@ my-portfolio
 
 # 概要
 - 自己紹介サイト
-- シンプルなSPA
+- Nuxt.jsでシンプルなSPAを作成し、Netlifyを使用しサイトを公開した。
 　
 
 # 本番環境
