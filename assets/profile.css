@@ -27,8 +27,7 @@ img.profile-image{
   max-height: 300px;
   object-fit: cover;
   border-radius: 10px 100px / 120px;;
-  filter: grayscale(60%) opacity(70%);
-  border: 15px solid rgb(229, 229, 153);
+  border: 10px solid rgb(219, 219, 170);
   margin: auto;
 }
 .profile-list{
